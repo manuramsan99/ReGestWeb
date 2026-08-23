@@ -3,6 +3,7 @@ import { Logo } from "./Logo";
 
 const NAV_ITEMS = [
   { href: "#como-funciona", label: "Cómo funciona" },
+  { href: "#panel", label: "Panel de control" },
   { href: "#ocr", label: "Facturas por foto" },
   { href: "#gestoria", label: "Para tu gestoría" },
 ];
