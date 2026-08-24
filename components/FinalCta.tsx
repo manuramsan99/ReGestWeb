@@ -1,3 +1,5 @@
+import { ContactForm } from "./ContactForm";
+
 export function FinalCta() {
   return (
     <section id="contacto" className="bg-regest-dark py-24 text-white">
@@ -9,13 +11,8 @@ export function FinalCta() {
           Todavía no hay alta automática. Cuéntanos cómo llevas tus obras hoy
           y te mostramos, en directo, cómo quedaría con ReGest.
         </p>
-        <div className="mt-9 flex flex-wrap items-center justify-center gap-4">
-          <a
-            href="mailto:hola@regestweb.com"
-            className="rounded-full bg-regest-green px-7 py-3.5 text-sm font-semibold text-white transition-colors hover:bg-regest-green-dark"
-          >
-            Escríbenos a hola@regestweb.com
-          </a>
+        <div className="mt-9 rounded-2xl border border-white/10 bg-white/[0.03] p-6 sm:p-8">
+          <ContactForm />
         </div>
       </div>
     </section>
