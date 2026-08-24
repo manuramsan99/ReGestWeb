@@ -1,4 +1,8 @@
+"use client";
+
 import Link from "next/link";
+import { usePathname } from "next/navigation";
+import type { MouseEvent } from "react";
 import { Logo } from "./Logo";
 
 const NAV_ITEMS = [
@@ -9,10 +13,19 @@ const NAV_ITEMS = [
 ];
 
 export function Header() {
+  const pathname = usePathname();
+
+  function handleLogoClick(event: MouseEvent<HTMLAnchorElement>) {
+    if (pathname === "/") {
+      event.preventDefault();
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+  }
+
   return (
     <header className="sticky top-0 z-50 border-b border-black/5 bg-white/80 backdrop-blur">
       <div className="mx-auto flex max-w-6xl items-center justify-between gap-2 px-4 py-4 sm:px-6">
-        <Link href="#top" aria-label="ReGest" className="shrink-0">
+        <Link href="/" aria-label="ReGest" className="shrink-0" onClick={handleLogoClick}>
           <Logo />
         </Link>
         <nav className="hidden items-center gap-8 md:flex">
