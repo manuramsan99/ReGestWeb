@@ -32,7 +32,7 @@ export function Dashboard() {
               Panel de control
             </span>
             <h2 className="mt-5 text-3xl font-extrabold tracking-tight text-regest-dark sm:text-4xl">
-              La foto real de tu negocio, no la que crees que tienes
+              La imagen real de tu negocio, no la que crees que tienes
             </h2>
             <p className="mt-5 text-lg leading-relaxed text-regest-dark-soft/80">
               Cuánto tienes en obras, cuánto has cobrado de verdad y cuánto
