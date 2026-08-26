@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import type { MouseEvent } from "react";
+import { HashLink } from "./HashLink";
 import { Logo } from "./Logo";
 
 const NAV_ITEMS = [
@@ -10,7 +11,7 @@ const NAV_ITEMS = [
   { href: "#panel", label: "Panel de control" },
   { href: "#ocr", label: "Facturas por foto" },
   { href: "#gestoria", label: "Para tu gestoría" },
-];
+] as const;
 
 export function Header() {
   const pathname = usePathname();
@@ -30,13 +31,13 @@ export function Header() {
         </Link>
         <nav className="hidden items-center gap-8 md:flex">
           {NAV_ITEMS.map((item) => (
-            <a
+            <HashLink
               key={item.href}
               href={item.href}
               className="text-sm font-medium text-regest-dark-soft transition-colors hover:text-regest-dark"
             >
               {item.label}
-            </a>
+            </HashLink>
           ))}
         </nav>
         <div className="flex shrink-0 items-center gap-1.5 sm:gap-3">
@@ -48,12 +49,12 @@ export function Header() {
           >
             Iniciar sesión
           </a>
-          <a
+          <HashLink
             href="#contacto"
             className="whitespace-nowrap rounded-full bg-regest-dark px-2.5 py-1.5 text-[11px] font-semibold text-white transition-colors hover:bg-regest-green sm:px-5 sm:py-2.5 sm:text-sm"
           >
             Pide acceso
-          </a>
+          </HashLink>
         </div>
       </div>
     </header>
