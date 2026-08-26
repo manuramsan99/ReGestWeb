@@ -13,7 +13,13 @@ export function Footer() {
   return (
     <footer className="border-t border-black/5 py-10">
       <div className="mx-auto flex max-w-6xl flex-col items-center gap-6 px-6 text-sm text-regest-dark-soft/70 md:flex-row md:justify-between">
-        <Logo markClassName="h-7 w-7" />
+        <div className="flex flex-col items-center gap-1 md:items-start">
+          <Logo markClassName="h-7 w-7" />
+          <p className="text-xs text-regest-dark-soft/50">
+            Seguimos mejorando cada día para ser el software de referencia en
+            reformas.
+          </p>
+        </div>
         <p>© {new Date().getFullYear()} ReGest. Hecho en España para gente de obra.</p>
       </div>
       <div className="mx-auto mt-6 flex max-w-6xl flex-wrap items-center justify-center gap-x-6 gap-y-2 border-t border-black/5 px-6 pt-6 text-xs text-regest-dark-soft/60 md:justify-start">

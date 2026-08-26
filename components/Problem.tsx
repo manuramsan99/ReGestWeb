@@ -10,7 +10,7 @@ export function Problem() {
     <section className="mx-auto max-w-6xl px-6 py-20">
       <div className="max-w-2xl">
         <h2 className="text-3xl font-extrabold tracking-tight text-regest-dark sm:text-4xl">
-          Así gestiona hoy la mayoría de autónomos de reformas
+          Así gestiona hoy la mayoría de autónomos sus reformas
         </h2>
         <p className="mt-4 text-lg text-regest-dark-soft/80">
           No por falta de ganas — porque nadie les ha dado algo mejor que sea

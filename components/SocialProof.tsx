@@ -29,6 +29,10 @@ export function SocialProof() {
         <h2 className="text-2xl font-extrabold tracking-tight text-regest-dark sm:text-3xl">
           Nuestros autónomos nos avalan
         </h2>
+        <p className="mx-auto mt-3 max-w-lg text-sm text-regest-dark-soft/60">
+          Y seguimos mejorando cada día para ser el software de referencia en
+          reformas y construcción.
+        </p>
       </div>
 
       <div className="mt-10 grid gap-6 sm:grid-cols-3">
