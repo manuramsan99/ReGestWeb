@@ -10,7 +10,7 @@ export function OcrFeature() {
             Fotografía el ticket. Olvídate del resto.
           </h2>
           <p className="mt-5 text-lg leading-relaxed text-regest-dark-soft/80">
-            Le haces una foto a la factura o el ticket de un proveedor y
+            Con solo una foto de la factura o el ticket de compra,
             ReGest lee por sí solo el proveedor, el NIF, el importe y la
             fecha. Sin escribir nada, sin picar datos a mano.
           </p>

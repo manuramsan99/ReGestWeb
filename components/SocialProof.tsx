@@ -25,30 +25,33 @@ const TESTIMONIALS = [
 export function SocialProof() {
   return (
     <section className="mx-auto max-w-6xl px-6 py-20">
-      <div className="rounded-2xl border border-black/5 bg-regest-green-light/40 p-10 text-center">
-        <p className="text-xl font-semibold leading-relaxed text-regest-dark sm:text-2xl">
-          Ya en uso real por autónomos de reformas, gestionando sus obras con
-          ReGest cada día.
-        </p>
-        <p className="mt-3 text-sm text-regest-dark-soft/70">
-          Todavía no somos una gran cifra — preferimos que lo compruebes tú
-          mismo antes de prometerte una.
-        </p>
+      <div className="text-center">
+        <h2 className="text-2xl font-extrabold tracking-tight text-regest-dark sm:text-3xl">
+          Nuestros autónomos nos avalan
+        </h2>
       </div>
 
-      <div className="mt-8 grid gap-6 sm:grid-cols-3">
+      <div className="mt-10 grid gap-6 sm:grid-cols-3">
         {TESTIMONIALS.map((t) => (
           <div
             key={t.author}
-            className="rounded-2xl border border-black/5 bg-white p-6"
+            className="relative flex h-full flex-col rounded-2xl border border-black/5 bg-white p-6 pt-9 shadow-sm"
           >
-            <p className="text-sm leading-relaxed text-regest-dark-soft/90">
-              &ldquo;{t.quote}&rdquo;
+            <span className="absolute -top-3 left-6 flex h-8 w-8 items-center justify-center rounded-full bg-regest-green font-serif text-lg leading-none text-white shadow-md">
+              &rdquo;
+            </span>
+            <p className="flex-1 text-sm leading-relaxed text-regest-dark-soft/90">
+              {t.quote}
             </p>
-            <p className="mt-4 text-sm font-semibold text-regest-dark">
-              {t.author}
-            </p>
-            <p className="text-xs text-regest-dark-soft/60">{t.role}</p>
+            <div className="mt-5 flex items-center gap-3 border-t border-black/5 pt-4">
+              <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-regest-green-light text-sm font-bold text-regest-green-dark">
+                {t.author[0]}
+              </span>
+              <div>
+                <p className="text-sm font-semibold text-regest-dark">{t.author}</p>
+                <p className="text-xs text-regest-dark-soft/60">{t.role}</p>
+              </div>
+            </div>
           </div>
         ))}
       </div>
