@@ -15,6 +15,11 @@ export function OcrFeature() {
             fecha. Sin escribir nada, sin picar datos a mano.
           </p>
           <p className="mt-4 text-sm leading-relaxed text-regest-dark-soft/70">
+            Ese ticket queda enlazado directamente a tu factura de compra: no
+            se pierde ni se traspapela, siempre sabrás a qué obra y a qué
+            gasto pertenece.
+          </p>
+          <p className="mt-2 text-sm leading-relaxed text-regest-dark-soft/70">
             El reconocimiento de texto corre en tu propio navegador — la foto
             del ticket no se manda a ningún servicio externo.
           </p>
@@ -47,6 +52,10 @@ export function OcrFeature() {
                 </span>
               </div>
             ))}
+          </div>
+          <div className="mt-4 flex items-center gap-2 rounded-lg border border-regest-green/30 bg-regest-green/10 px-4 py-2.5 text-xs font-medium text-regest-green">
+            <span>🔗</span>
+            <span>Vinculado a factura de compra #0245</span>
           </div>
         </div>
       </div>

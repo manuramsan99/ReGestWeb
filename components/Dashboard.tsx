@@ -24,7 +24,7 @@ const TOP_CLIENTS = [
 
 export function Dashboard() {
   return (
-    <section id="panel" className="bg-regest-green-light/30 py-24">
+    <section id="panel" className="bg-regest-green-light/30 py-20">
       <div className="mx-auto max-w-6xl px-6">
         <div className="grid gap-14 md:grid-cols-2 md:items-center">
           <div>
