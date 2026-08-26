@@ -5,6 +5,7 @@ import { LEGAL_ENTITY } from "@/lib/legalInfo";
 export const metadata: Metadata = {
   title: "Aviso legal — ReGest",
   description: "Datos identificativos del titular de regest.es conforme a la LSSI-CE.",
+  alternates: { canonical: "/aviso-legal" },
 };
 
 export default function AvisoLegalPage() {

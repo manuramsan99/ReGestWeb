@@ -5,6 +5,7 @@ import { LEGAL_ENTITY } from "@/lib/legalInfo";
 export const metadata: Metadata = {
   title: "Política de privacidad — ReGest",
   description: "Cómo tratamos tus datos personales en regest.es.",
+  alternates: { canonical: "/privacidad" },
 };
 
 export default function PrivacidadPage() {

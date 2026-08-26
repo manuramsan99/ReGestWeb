@@ -5,6 +5,7 @@ import { LEGAL_ENTITY } from "@/lib/legalInfo";
 export const metadata: Metadata = {
   title: "Términos de uso — ReGest",
   description: "Condiciones de uso del sitio web regest.es.",
+  alternates: { canonical: "/terminos" },
 };
 
 export default function TerminosPage() {

@@ -6,6 +6,7 @@ import { LEGAL_ENTITY } from "@/lib/legalInfo";
 export const metadata: Metadata = {
   title: "Política de cookies — ReGest",
   description: "Qué cookies usa regest.es y cómo puedes gestionarlas.",
+  alternates: { canonical: "/cookies" },
 };
 
 export default function CookiesPage() {
