@@ -1,3 +1,5 @@
+import { HashLink } from "./HashLink";
+
 export function Hero() {
   return (
     <section id="top" className="relative overflow-hidden bg-regest-dark text-white">
@@ -17,18 +19,18 @@ export function Hero() {
             proveedores, de principio a fin, sin líos.
           </p>
           <div className="mt-9 flex flex-wrap items-center gap-4">
-            <a
+            <HashLink
               href="#contacto"
               className="rounded-full bg-regest-green px-7 py-3.5 text-sm font-semibold text-white transition-colors hover:bg-regest-green-dark"
             >
               Pide acceso
-            </a>
-            <a
+            </HashLink>
+            <HashLink
               href="#como-funciona"
               className="rounded-full border border-white/20 px-7 py-3.5 text-sm font-semibold text-white/90 transition-colors hover:border-white/40"
             >
               Ver cómo funciona
-            </a>
+            </HashLink>
           </div>
         </div>
 

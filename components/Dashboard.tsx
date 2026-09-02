@@ -24,7 +24,7 @@ const TOP_CLIENTS = [
 
 export function Dashboard() {
   return (
-    <section id="panel" className="bg-regest-green-light/30 py-24">
+    <section id="panel" className="bg-regest-green-light/30 py-20">
       <div className="mx-auto max-w-6xl px-6">
         <div className="grid gap-14 md:grid-cols-2 md:items-center">
           <div>
@@ -32,7 +32,7 @@ export function Dashboard() {
               Panel de control
             </span>
             <h2 className="mt-5 text-3xl font-extrabold tracking-tight text-regest-dark sm:text-4xl">
-              La foto real de tu negocio, no la que crees que tienes
+              La imagen real de tu negocio, no la que crees que tienes
             </h2>
             <p className="mt-5 text-lg leading-relaxed text-regest-dark-soft/80">
               Cuánto tienes en obras, cuánto has cobrado de verdad y cuánto

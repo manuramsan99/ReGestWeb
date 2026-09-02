@@ -3,6 +3,7 @@
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
 @AGENTS.md
+<<<<<<< HEAD
 
 ## Qué es este repo
 
@@ -61,3 +62,6 @@ No hay tests ni framework de testing configurado.
 `AGENTS.md` contiene un bloque `<!-- BEGIN:nextjs-agent-rules -->` que `next dev`
 regenera automáticamente. Si aparece como cambio sin commitear, haz commit junto
 con tu trabajo en lugar de descartarlo.
+=======
+@PROJECT_STATUS.md
+>>>>>>> d00c1fdc8ff67be8f9546693b918875ff23a1f3a
