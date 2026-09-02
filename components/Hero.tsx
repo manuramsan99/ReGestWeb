@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { HashLink } from "./HashLink";
 
 export function Hero() {
@@ -32,6 +33,12 @@ export function Hero() {
               Ver cómo funciona
             </HashLink>
           </div>
+          <p className="mt-5 text-sm text-white/60">
+            Desde 20 €/mes · 1 mes gratis, sin permanencia.{" "}
+            <Link href="/precios" className="font-medium text-white/80 underline hover:text-white">
+              Ver precios
+            </Link>
+          </p>
         </div>
 
         <div className="relative">

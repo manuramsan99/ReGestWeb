@@ -11,6 +11,7 @@ const NAV_ITEMS = [
   { href: "#panel", label: "Panel de control" },
   { href: "#ocr", label: "Facturas por foto" },
   { href: "#gestoria", label: "Para tu gestoría" },
+  { href: "#precios", label: "Precios" },
 ] as const;
 
 export function Header() {

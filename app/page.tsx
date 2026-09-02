@@ -8,6 +8,7 @@ import { OcrFeature } from "@/components/OcrFeature";
 import { WhyReGest } from "@/components/WhyReGest";
 import { ForGestoria } from "@/components/ForGestoria";
 import { SocialProof } from "@/components/SocialProof";
+import { Pricing } from "@/components/Pricing";
 import { FinalCta } from "@/components/FinalCta";
 import { Footer } from "@/components/Footer";
 
@@ -25,6 +26,7 @@ export default function Home() {
         <WhyReGest />
         <ForGestoria />
         <SocialProof />
+        <Pricing />
         <FinalCta />
       </main>
       <Footer />

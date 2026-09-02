@@ -14,6 +14,13 @@ const SCHEMA = {
   },
   areaServed: "ES",
   inLanguage: "es",
+  offers: {
+    "@type": "Offer",
+    price: "20",
+    priceCurrency: "EUR",
+    description: "20 €/mes más IVA, con 1 mes gratis de prueba y sin permanencia.",
+    url: "https://regest.es/precios",
+  },
   publisher: {
     "@type": "Organization",
     name: "ReGest",

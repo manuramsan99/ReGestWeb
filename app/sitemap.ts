@@ -8,6 +8,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
   return [
     { url: BASE_URL, lastModified, changeFrequency: "monthly", priority: 1 },
     {
+      url: `${BASE_URL}/precios`,
+      lastModified,
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
       url: `${BASE_URL}/aviso-legal`,
       lastModified,
       changeFrequency: "yearly",
