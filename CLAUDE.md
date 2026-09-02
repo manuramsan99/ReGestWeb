@@ -70,6 +70,9 @@ con tu trabajo en lugar de descartarlo.
 
 ## Registro de cambios
 
+- **2026-09-02** — Añadido `ToDoList.md` con el plan de mejoras SEO/conversión
+  derivado de `Auditoria_SEO_Conversion_ReGest.md` (tandas A-E, dificultad y
+  dependencias). Trabajo pendiente en la rama `mejoras-seo`.
 - **2026-09-02** — SEO de precios: nueva página `app/precios/page.tsx` (canonical
   `/precios`, metadata propia, JSON-LD `Product`+`Offer`+`FAQPage`+`BreadcrumbList`,
   7 FAQ de precio). Tarjeta extraída a `components/PricingCard.tsx` (compartida por
